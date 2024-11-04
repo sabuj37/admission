@@ -286,17 +286,17 @@
                                     
                                    
                                     <li class="nav-item">
-                                        <a href="index.html" class="nav-link" data-key="t-ecommerce">Add Product </a>
+                                        <a href="index.html"  class="nav-link" > <i class="fa-solid fa-cart-shopping"style="color: #ffffff;"></i>Add Product </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"> Product List</a>
+                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-list"style="color: #ffffff;"></i> Product List</a>
                                     </li>
                                 </ul>
                             </div>
                         </li> <!-- end Dashboard Menu -->
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarApps" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarApps">
-                                <i class="ri-apps-2-line"></i> <span data-key="t-apps">Apps</span>
+                                <i class="ri-apps-2-line"></i> <span data-key="t-apps">Order</span>
                             </a>
                             <div class="collapse menu-dropdown" id="sidebarApps">
                                 <ul class="nav nav-sm flex-column">
