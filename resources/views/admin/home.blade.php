@@ -29,7 +29,8 @@
     <link href="{{ asset('public/admin/velzon/html/master/') }}/assets/css/app.min.css" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
     <link href="{{ asset('public/admin/velzon/html/master/') }}/assets/css/custom.min.css" rel="stylesheet" type="text/css" />
-
+    <!-- font icon -->
+    <script src="https://kit.fontawesome.com/32dcd4a478.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -236,7 +237,7 @@
                         <img src="{{ asset('public/admin/velzon/html/master/') }}/assets/images/logo-sm.png" alt="" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('public/admin/velzon/html/master/') }}/assets/images/logo-light.png" alt="" height="17">
+                        <img src="{{ asset('public/admin/velzon/html/master/') }}/assets/images/daraz.png" alt="" height="20">
                     
                 </a>
                 <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
@@ -278,29 +279,17 @@
                         <li class="menu-title"><span data-key="t-menu">Menu</span></li>
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarDashboards" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
-                                <i class="ri-dashboard-2-line"></i> <span data-key="t-dashboards">Dashboards</span>
+                            <i class="fa-solid fa-shop fa-2xs" style="color: #ffffff;"></i> <span data-key="t-dashboards">Product</span>
                             </a>
                             <div class="collapse menu-dropdown" id="sidebarDashboards">
                                 <ul class="nav nav-sm flex-column">
                                     
                                    
                                     <li class="nav-item">
-                                        <a href="index.html" class="nav-link" data-key="t-ecommerce"> Ecommerce </a>
+                                        <a href="index.html" class="nav-link" data-key="t-ecommerce">Add Product </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"> Crypto </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="dashboard-projects.html" class="nav-link" data-key="t-projects"> Projects </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="dashboard-nft.html" class="nav-link" data-key="t-nft"> NFT</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="dashboard-job.html" class="nav-link" data-key="t-job">Job</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="dashboard-blog.html" class="nav-link"><span data-key="t-blog">Blog</span> <span class="badge bg-success" data-key="t-new">New</span></a>
+                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"> Product List</a>
                                     </li>
                                 </ul>
                             </div>
