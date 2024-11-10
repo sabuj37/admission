@@ -296,94 +296,18 @@
                         </li> <!-- end Dashboard Menu -->
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarApps" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarApps">
-                                <i class="ri-apps-2-line"></i> <span data-key="t-apps">Order</span>
+                            <i class="fa-light fa-person"style="color: #ffffff;"></i> <span data-key="t-apps">Customer</span>
                             </a>
                             <div class="collapse menu-dropdown" id="sidebarApps">
                                 <ul class="nav nav-sm flex-column">
-                                    <li class="nav-item">
-                                        <a href="#sidebarCalendar" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarCalendar" data-key="t-calender">
-                                            Calendar
-                                        </a>
-                                        <div class="collapse menu-dropdown" id="sidebarCalendar">
-                                            <ul class="nav nav-sm flex-column">
-                                                <li class="nav-item">
-                                                    <a href="apps-calendar.html" class="nav-link" data-key="t-main-calender"> Main Calender </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-calendar-month-grid.html" class="nav-link" data-key="t-month-grid"> Month Grid </a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                <li class="nav-item">
+                                        <a href="index.html"  class="nav-link" > <i class="fa-solid fa-file-waveform"style="color: #ffffff;"></i>Customer Form </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="apps-chat.html" class="nav-link" data-key="t-chat"> Chat </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#sidebarEmail" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarEmail" data-key="t-email">
-                                            Email
-                                        </a>
-                                        <div class="collapse menu-dropdown" id="sidebarEmail">
-                                            <ul class="nav nav-sm flex-column">
-                                                <li class="nav-item">
-                                                    <a href="apps-mailbox.html" class="nav-link" data-key="t-mailbox"> Mailbox </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="#sidebaremailTemplates" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebaremailTemplates" data-key="t-email-templates">
-                                                        Email Templates
-                                                    </a>
-                                                    <div class="collapse menu-dropdown" id="sidebaremailTemplates">
-                                                        <ul class="nav nav-sm flex-column">
-                                                            <li class="nav-item">
-                                                                <a href="apps-email-basic.html" class="nav-link" data-key="t-basic-action"> Basic Action </a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a href="apps-email-ecommerce.html" class="nav-link" data-key="t-ecommerce-action"> Ecommerce Action </a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#sidebarEcommerce" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarEcommerce" data-key="t-ecommerce">
-                                            Ecommerce
-                                        </a>
-                                        <div class="collapse menu-dropdown" id="sidebarEcommerce">
-                                            <ul class="nav nav-sm flex-column">
-                                                <li class="nav-item">
-                                                    <a href="apps-ecommerce-products.html" class="nav-link" data-key="t-products"> Products </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-ecommerce-product-details.html" class="nav-link" data-key="t-product-Details"> Product Details </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-ecommerce-add-product.html" class="nav-link" data-key="t-create-product"> Create Product </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-ecommerce-orders.html" class="nav-link" data-key="t-orders">
-                                                        Orders </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-ecommerce-order-details.html" class="nav-link" data-key="t-order-details"> Order Details </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-ecommerce-customers.html" class="nav-link" data-key="t-customers"> Customers </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-ecommerce-cart.html" class="nav-link" data-key="t-shopping-cart"> Shopping Cart </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-ecommerce-checkout.html" class="nav-link" data-key="t-checkout"> Checkout </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-ecommerce-sellers.html" class="nav-link" data-key="t-sellers">
-                                                        Sellers </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-ecommerce-seller-details.html" class="nav-link" data-key="t-sellers-details"> Seller Details </a>
-                                                </li>
-                                            </ul>
+                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-list"style="color: #ffffff;"></i> Product Deatils</a>
+                                    </li> 
+                                    
+                                </ul>
                                         </div>
                                     </li>
                                     <li class="nav-item">
