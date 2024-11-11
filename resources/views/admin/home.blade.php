@@ -273,79 +273,88 @@
                 <div class="container-fluid">
 
 
-                    <div id="two-column-menu">
-                    </div>
+                <div id="two-column-menu">
+                  </div>
                     <ul class="navbar-nav bg-dark" id="navbar-nav">
                         <li class="menu-title"><span data-key="t-menu">Menu</span></li>
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarDashboards" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
-                            <i class="fa-solid fa-shop fa-2xs" style="color: #ffffff;"></i> <span data-key="t-dashboards">Product</span>
+                            <i class="fa-solid fa-grid-2-plus" style="color: #f2f4f8;"></i> <span data-key="t-dashboards">New Collection</span>
                             </a>
                             <div class="collapse menu-dropdown" id="sidebarDashboards">
                                 <ul class="nav nav-sm flex-column">
                                     
                                    
                                     <li class="nav-item">
-                                        <a href="index.html"  class="nav-link" > <i class="fa-solid fa-cart-shopping"style="color: #ffffff;"></i>Add Product </a>
+                                        <a href="index.html"  class="nav-link" > <i class="fa-solid fa-cart-shopping"style="color: #ffffff;"></i> Add Product </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-list"style="color: #ffffff;"></i> Product List</a>
                                     </li>
+
                                 </ul>
                             </div>
                         </li> <!-- end Dashboard Menu -->
                         <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarApps" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarApps">
-                            <i class="fa-light fa-person"style="color: #ffffff;"></i> <span data-key="t-apps">Customer</span>
+                            <i class="fa-light fa-person"style="color: #ffffff;"></i> <span data-key="t-apps">Customer Order</span>
                             </a>
                             <div class="collapse menu-dropdown" id="sidebarApps">
                                 <ul class="nav nav-sm flex-column">
                                 <li class="nav-item">
-                                        <a href="index.html"  class="nav-link" > <i class="fa-solid fa-file-waveform"style="color: #ffffff;"></i>Customer Form </a>
+                                        <a href="index.html"  class="nav-link" > <i class="fa-solid fa-file-waveform"style="color: #ffffff;"></i>Customer Deatils </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-list"style="color: #ffffff;"></i> Product Deatils</a>
+                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-list"style="color: #ffffff;"></i>Customer list</a>
+                                    </li> 
+
+                                    <li class="nav-item">
+                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-cart-shopping"style="color: #ffffff;"></i>Product order </a>
+                                    </li> 
+
+                                    <li class="nav-item">
+                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-text-width" style="color: #f5f7f9;"></i></i>Order Deatils</a>
                                     </li> 
                                     
                                 </ul>
                                         </div>
                                     </li>
-                                    <li class="nav-item">
-                            <a class="nav-link menu-link" href="#sidebarDashboards" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
-                            <i class="fa-solid fa-shop fa-2xs" style="color: #ffffff;"></i> <span data-key="t-dashboards">Product</span>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#sidebarbank" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarbank">
+                            <i class="fa-solid fa-shop fa-2xs" style="color: #ffffff;"></i> <span data-key="t-dashboards">Bank</span>
                             </a>
-                            <div class="collapse menu-dropdown" id="sidebarDashboards">
+                            <div class="collapse menu-dropdown" id="sidebarbank">
                                 <ul class="nav nav-sm flex-column">
                                     
                                    
                                     <li class="nav-item">
-                                        <a href="index.html"  class="nav-link" > <i class="fa-solid fa-cart-shopping"style="color: #ffffff;"></i>Add Product </a>
+                                        <a href="index.html"  class="nav-link" > <i class="fa-sharp fa-thin fa-file-user fa-2xs" style="color: #f5f4f6;"></i> Add New Account </a>
+
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-list"style="color: #ffffff;"></i> Product List</a>
+                                        <a href="sidebarbank-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-list"style="color: #ffffff;"></i>Totall Finance</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#employer" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="employer">
+                            <i class="fa-sharp fa-light fa-users fa-2xs" style="color: #f1f2f4;"></i><span data-key="t-dashboards">Employer</span>
+                            </a>
+                            <div class="collapse menu-dropdown" id="employer">
+                                <ul class="nav nav-sm flex-column">
+                                    
+                                   
                                     <li class="nav-item">
-                                        <a href="#sidebarTasks" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarTasks" data-key="t-tasks"> Tasks
-                                        </a>
-                                        <div class="collapse menu-dropdown" id="sidebarTasks">
-                                            <ul class="nav nav-sm flex-column">
-                                                <li class="nav-item">
-                                                    <a href="apps-tasks-kanban.html" class="nav-link" data-key="t-kanbanboard">
-                                                        Kanban Board </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-tasks-list-view.html" class="nav-link" data-key="t-list-view">
-                                                        List View </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="apps-tasks-details.html" class="nav-link" data-key="t-task-details"> Task Details </a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <a href="index.html"  class="nav-link" > <i class="fa-sharp fa-thin fa-file-user fa-2xs" style="color: #f5f4f6;"></i>Employer Deatils </a>
+
                                     </li>
+                                    <li class="nav-item">
+                                        <a href="sidebarbank-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-list"style="color: #ffffff;"></i>Totall Finance</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                                 </ul>
                             </div>
                         </li>
@@ -354,11 +363,7 @@
                 </div>
             </li>
 
-                        
-
-                       
-
-                        <li class="nav-item">
+                <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarMultilevel" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarMultilevel">
                                 <i class="ri-share-line"></i> <span data-key="t-multi-level">Multi Level</span>
                             </a>
