@@ -10,4 +10,7 @@ class frontController extends Controller
         return view('admin.home');
     }
     
+    public function addproduct(){
+        return view('admin.addproduct');
+    }
 }

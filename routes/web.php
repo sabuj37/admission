@@ -12,3 +12,8 @@ Route::get('/home',[
     frontController::class,
     'home'
 ])->name('adminHome');
+
+Route::get('/addproduct',[
+    frontController::class,
+    'addproduct'
+])->name('addproduct');
