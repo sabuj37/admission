@@ -1,5 +1,5 @@
-@extends('admin.home')
-@section('Deshboard')
+@extends('admin.include')
+@section('dashboard')
 
 <form>
   <div class="mb-3">
