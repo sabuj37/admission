@@ -17,3 +17,8 @@ Route::get('/addproduct',[
     frontController::class,
     'addproduct'
 ])->name('addproduct');
+
+Route::post('/saveproduct',[
+    frontController::class,
+    'saveveproduct'
+])->name('saveproduct');
