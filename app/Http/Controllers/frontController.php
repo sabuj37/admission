@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\product;
 
 class frontController extends Controller
 {
@@ -15,16 +16,16 @@ class frontController extends Controller
     }
 
     public function saveproduct (Request $requ){
-        $product = new productlist();
+        $product = new product();
     
         $product->Pname         = $requ->Pname;
         $product->Pquality      = $requ->Pquality;
-        $product->Pquantity     = $requ->Pquantity;
+        $product->Pquantity     = $requ->pquantity;
     
         if($product->save()):
-            return "Data entry successful";
+            return back()->with('success','Data entry successful');
         else:
-            return "Data entry faile";
+            return back()->with('erorr','Data entry Failed');
         endif;
     }
 

@@ -1,11 +1,22 @@
 @extends('admin.include')
 @section('dashboard')
+<div class="container">
 <div class="row">
   <div class="col-6 mx-auto">
     <div class="card">
       <div class="card-body">
+      @if(session()->has('success'))
+         <div class="alert alert-success">
+          {{session()->get('success')}}
+         </div>
+         @endif
+        @if(session()->has('erorr'));
+         <div class="alert alert-danger">
+          {{session()->get('error')}}
+         </div>
+         @endif
         <h2 class="text-center test-bold">Add Product</h2>
-      <form action="{{route('saveproduct')}}" methood="Post">
+      <form action="{{route('saveproduct')}}" method="POST">
         @csrf
       <div class="mb-3">
         <label for="Pname" class="form-label test-bold">Product Name</label>
@@ -31,5 +42,5 @@
     </div>
   </div>
 </div>
-
+</div>
 @endsection

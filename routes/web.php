@@ -20,5 +20,5 @@ Route::get('/addproduct',[
 
 Route::post('/saveproduct',[
     frontController::class,
-    'saveveproduct'
+    'saveproduct'
 ])->name('saveproduct');
