@@ -22,3 +22,18 @@ Route::post('/saveproduct',[
     frontController::class,
     'saveproduct'
 ])->name('saveproduct');
+
+Route::get('/productlist',[
+    frontController::class,
+    'productlist'
+])->name('productlist');
+
+Route::get('/editproduct/{id}',[
+    frontController::class,
+    'editproduct'
+])->name('editproduct');
+
+Route::post('/updateproduct',[
+    frontController::class,
+    'updateproduct'
+])->name('updateproduct');

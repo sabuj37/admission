@@ -15,17 +15,19 @@
           {{session()->get('error')}}
          </div>
          @endif
-        <h2 class="text-center test-bold">Add Product</h2>
-      <form action="{{route('saveproduct')}}" method="POST">
+        <h2 class="text-center test-bold">Edit Product</h2>
+        @if (!empty($product))
+      <form action="{{route('updateproduct')}}" method="POST">
         @csrf
+        <input type="hidden" name="pid" value="{{$product->id}}">
       <div class="mb-3">
         <label for="Pname" class="form-label test-bold">Product Name</label>
-        <input type="text" class="form-control" name="Pname" id="Pname" aria-describedby="emailHelp">
+        <input type="text" class="form-control" name="Pname" value="{{$product->Pname}}" id="Pname" aria-describedby="emailHelp">
       </div>
       <div class="mb-3">
         <label for="Pquality" class="form-label test-bold">Product Quality</label>
         <select class="form-select" name="Pquality" aria-label="Default select example">
-          <option selected>Quality Selected</option>
+          <option selected>{{$product->Pquality}}</option>
           <option >Best</option>
           <option >Mediam</option>
           <option >Law</option>
@@ -34,10 +36,13 @@
       </div>
       <div class="mb-3">
         <label for="Quantity" class="form-label test-bold">Quantity</label>
-        <input type="text" class="form-control" name="pquantity" id="Quantity" aria-describedby="emailHelp">
+        <input type="text" class="form-control" name="pquantity" value="{{$product->pquantity}}"  id="Quantity" aria-describedby="emailHelp">
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    @else
+    <div class="alert alert-info">sorry No data found</div>
+    @endif
       </div>
     </div>
   </div>

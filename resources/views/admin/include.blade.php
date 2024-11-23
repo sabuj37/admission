@@ -289,7 +289,7 @@
                                         <a href="addproduct"  class="nav-link" > <i class="fa-solid fa-cart-shopping"style="color: #ffffff;"></i> Add Product </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="dashboard-crypto.html" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-list"style="color: #ffffff;"></i> Product List</a>
+                                        <a href="productlist" class="nav-link" data-key="t-crypto"><i class="fa-solid fa-list"style="color: #ffffff;"></i> Product List</a>
                                     </li>
 
                                 </ul>
